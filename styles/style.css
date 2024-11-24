@@ -1,0 +1,44 @@
+h1{
+    color:rgb(246, 246, 255);
+
+}
+/*selectores avanzados*/
+
+/*sirven para ser mas especificos en la parte que queremos seleccionar */
+
+header {
+    background-color: hotpink;
+}
+nav ul {
+    padding: 0;
+    text-align: center;
+    background-color: dodgerblue;
+}
+
+ nav  ul li a{
+    color: green;
+    text-decoration: none;
+}
+
+/* pseudoclases*/
+nav ul li a:hover {
+color: red;
+
+}
+
+/*display*/
+/*block | inline | inline-block*/
+
+nav ul li {
+display: inline;
+background-color: aquamarine;
+width: 60px;
+padding: 8px;
+height: 20px;
+margin: 0 20px;
+}
+
+footer {background-color: mediumorchid;
+color: white;
+text-align: center;
+}
